@@ -79,6 +79,7 @@
                                     <td><?= $mhs['program_studi']; ?></td>
                                     <td><?= $mhs['tgl_mengajar']; ?></td>
                                     <td><?= $mhs['kelas']; ?></td>
+                                    
                                     <td>
                                         <a class="btn btn-warning border" href="<?php echo base_url('dosen/editschedule/') . $mhs['id']; ?>"><i class="bi bi-pencil-fill"></i></a>
                                         <a class="btn btn-danger border" href="<?php echo base_url('dosen/deleteschedule/') . $mhs['id']; ?>" onclick="return confirm('Delete Schedule?')"><i class="bi bi-trash"></i></a>
